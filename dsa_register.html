@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="icon" href="assets/title_icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&family=Playfair+Display:ital,wght@1,800&family=Poppins:wght@400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="register">
+        <p style="font-size: 1em; font-weight: 300; color:#06FF00">Get Unlimited Placement Opportunity</p>
+        <p style="font-size: 2em; font-weight: bold;">Book Your Seat for Data Structures and Algorithms Training</p>
+        <p>The only Training Institute with a Structured Hybrid Learning Model with 24/7 Doubt Clarification.</p><br>
+        <form action="end.html">
+
+            <label for="name">
+                Name<sup><img src="assets/asterisk.png" alt="" height="10px"></sup>
+            </label><br>
+            <input type="text" id="name" name="name" placeholder="Name" required><br>
+
+            <label for="email">
+                Email<sup>
+                    <img src="assets/asterisk.png" alt="" height="10px"></sup>
+            </label><br>
+            <input type="email" id="email" name="email" placeholder="Email" required><br>
+
+            <label for="num">
+                Number<sup>
+                    <img src="assets/asterisk.png" alt="" height="10px"></sup>
+            </label><br><br>
+            <input style="width: 50%; height: 2em; font-size: 1em;" type="text" id="num" name="num"
+                placeholder="Phone Number" pattern="[6-9]{1}[0-9]{9}" required><br>
+
+            <p>Year Of Passing</p>
+
+            <input type="radio" id="op1" name="yop" value="2019">
+            <label for="op1">
+                2019
+            </label>
+
+            <input type="radio" id="op2" name="yop" value="2020">
+            <label for="op2">
+                2020
+            </label>
+
+            <input type="radio" id="op3" name="yop" value="2021">
+            <label for="op3">
+                2021
+            </label>
+
+            <input type="radio" id="op4" name="yop" value="2022">
+            <label for="op4">
+                2022
+            </label>
+
+            <input type="radio" id="op5" name="yop" value="2023">
+            <label for="op5">
+                2023
+            </label>
+
+
+            <p><br>Mode Of Training</p>
+
+            <input type="radio" id="online" name="mot" value="online">
+            <label for="online">
+                Online
+            </label>
+
+            <input type="radio" id="offline" name="mot" value="offline">
+            <label for="offline">
+                Offline
+            </label> <br><br><br>
+
+            <button class="blue">
+                REGISTER
+            </button>
+        </form>
+    </div>
+
+</body>
+
+</html>
